@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Mario | Firsty Januar - Links</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Orbs Animation -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Header Actions -->
+  <div class="top-actions">
+    <button class="icon-btn" id="shareBtn" title="Bagikan Profil">
+      <i class="fa-solid fa-share-nodes"></i>
+    </button>
+  </div>
+
+  <!-- Main Container -->
+  <main class="container">
+    
+    <!-- Profile Card Header -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <!-- Ganti URL gambar di bawah ini dengan foto profil Anda -->
+        <img src="gambar.png" alt="El Mario Avatar" class="avatar">
+        <span class="status-badge" title="Online"></span>
+      </div>
+      <h1 class="profile-name">El Mario | Firsty Januar</h1>
+      <p class="profile-handle">@firstyjanuar</p>
+      <p class="profile-bio">Streamer Mini Mikro 🚀 | Gaming, Tutorial, Daily Vibes and Just Chatting</p>
+    </header>
+
+    <!-- Social Links Stack -->
+    <section class="links-container">
+      
+      <!-- YouTube -->
+      <a href="https://youtube.com/@elmarioboss" target="_blank" rel="noopener noreferrer" class="link-card link-youtube">
+        <div class="link-icon">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-title">YouTube</span>
+          <span class="link-subtitle">Subscribe channel video & live stream</span>
+        </div>
+        <div class="link-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://instagram.com/firstea_1" target="_blank" rel="noopener noreferrer" class="link-card link-instagram">
+        <div class="link-icon">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-title">Instagram</span>
+          <span class="link-subtitle">Foto, reels & update harian</span>
+        </div>
+        <div class="link-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </a>
+
+      <!-- TikTok -->
+      <a href="https://tiktok.com/@elmario.chill" target="_blank" rel="noopener noreferrer" class="link-card link-tiktok">
+        <div class="link-icon">
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-title">TikTok</span>
+          <span class="link-subtitle">Konten pendek & live streaming</span>
+        </div>
+        <div class="link-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </a>
+
+      <!-- Discord -->
+      <a href="https://discord.gg/kode_invite_discord" target="_blank" rel="noopener noreferrer" class="link-card link-discord">
+        <div class="link-icon">
+          <i class="fa-brands fa-discord"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-title">Discord Server</span>
+          <span class="link-subtitle">Gabung dengan komunitas kita</span>
+        </div>
+        <div class="link-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </a>
+
+      <!-- Saweria -->
+      <a href="https://saweria.co/elmario20" target="_blank" rel="noopener noreferrer" class="link-card link-saweria">
+        <div class="link-icon">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="link-text">
+          <div class="title-with-badge">
+            <span class="link-title">Saweria</span>
+            <span class="badge">Dukungan</span>
+          </div>
+          <span class="link-subtitle">Dukung live stream & karya saya</span>
+        </div>
+        <div class="link-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> El Mario | Firsty Januar</p>
+    </footer>
+
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">Link berhasil disalin!</div>
+
+  <!-- File JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
